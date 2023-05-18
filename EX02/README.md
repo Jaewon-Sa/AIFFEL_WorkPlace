@@ -34,7 +34,13 @@ w = np.random.rand(len(X_train[0,:]))
 #w의 수를 x_train의 feature수로 바로 연결될 수 있도록 코딩
 ```
 - [O] 코드가 간결한가요?
-#위 항목에 대한 근거 작성 필수
+```
+def loss(x,w,b,y):
+    pred=model(w,b,x)
+    return ((y - pred) ** 2).mean()
+
+#loss함수에 MSE함수가 바로 적용될 수 있도록 간단하게 합침 
+```
 
 ----------------------------------------------
 
