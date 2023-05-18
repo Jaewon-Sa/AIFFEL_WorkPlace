@@ -8,6 +8,15 @@
 PRT(PeerReviewTemplate)
 
 - [O] 코드가 정상적으로 동작하고 주어진 문제를 해결했나요?
+```
+#예제1. 
+mse = loss(X_test, w, b, y_test)
+mse    #2870.6  -> 3000미만
+
+#예제2.
+RMSE valuse = 140.6618692885105   #150미만
+```
+
 - [O] 주석을 보고 작성자의 코드가 이해되었나요?
 ```
 def gradient(x, w, b, y):
