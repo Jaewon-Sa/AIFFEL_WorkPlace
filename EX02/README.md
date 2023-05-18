@@ -32,8 +32,11 @@ def gradient(x, w, b, y):
 - [O] 코드 작성자가 코드를 제대로 이해하고 작성했나요? (직접 인터뷰해보기)
 ```
 w = np.random.rand(len(X_train[0,:]))
-
 #w의 수를 x_train의 feature수로 바로 연결될 수 있도록 코딩
+
+def model(w,b,x):
+    return x@w+b
+#모델의 흐름을 이해하고 @를 사용해 간결하게 표현 -> 모르는 부분이라 질문드림!
 ```
 - [O] 코드가 간결한가요?
 ```
