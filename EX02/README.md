@@ -10,9 +10,11 @@ PRT(PeerReviewTemplate)
 - [O] 코드가 정상적으로 동작하고 주어진 문제를 해결했나요?
 - [O] 주석을 보고 작성자의 코드가 이해되었나요?
 ```
+python
 def gradient(x, w, b, y):
     #dw = (loss(x, w + 0.0001, b, y) - loss(x, w, b, y)) / 0.0001
     #db = (loss(x, w, b + 0.0001, y) - loss(x, w, b, y)) / 0.0001
+
 #gradient계산함수 작성시 주석으로 식을 적어주셔서 이해하기 좋았습니다
 ```
 
