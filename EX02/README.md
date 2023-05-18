@@ -45,6 +45,10 @@ def loss(x,w,b,y):
     return ((y - pred) ** 2).mean()
 
 #loss함수에 MSE함수가 바로 적용될 수 있도록 간단하게 합침 
+
+_, ax = plt.subplots(ncols=3, nrows=2)
+sns.countplot(x='year',data=data, ax=ax[0,0])
+#countplot을 이용해 subplot보다 간결하게 그래프 표현
 ```
 
 ----------------------------------------------
