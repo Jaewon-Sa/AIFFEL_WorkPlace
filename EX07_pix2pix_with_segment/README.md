@@ -1,7 +1,7 @@
 # AIFFEL Campus Online 4th Code Peer Review
 ----  
 - 코더 : 사재원
-- 리뷰어 : 김용석 
+- 리뷰어 : 
 
 ## **PRT(PeerReviewTemplate)**  
 ------------------  
