@@ -291,3 +291,4 @@ look_ahead_mask = tf.keras.layers.Lambda(
 ```
 
 ## **참고링크 및 코드 개선 여부**
+- tf.keras.backend.clear_session(): https://wikidocs.net/193758
