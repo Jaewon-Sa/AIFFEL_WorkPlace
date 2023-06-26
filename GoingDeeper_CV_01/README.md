@@ -183,7 +183,7 @@ Residual block 이 있는 경우와 없는 경우의 loss, acc 차이를 잘 도
 
 - [O] **1.Did the code work properly and fix the given issue?**
 - [O] **2.Did I look at the comments and understand the author's code? And it is suitable?**  
-- [x] **3.Is there a possibility that the code will cause an error?**
+- [NO] **3.Is there a possibility that the code will cause an error?**
 - [O] **4.Did the code writer understand and write the code correctly?**  
 - [O] **5.Is the code concise and expandable?**  
 -----------------------------------------------------------------------
